@@ -332,8 +332,8 @@ Then we register an event. For example, `initialise-application`:
     {:db   (assoc default-db :loading true)
      :http {:method      :get
             :url         "/api/users"
-            :on-success  :update-users
-            :on-failure  :display-error}}))
+            :on-success  [:update-users]
+            :on-failure  [:display-error]}}))
 ```
 Ignore the `(fn [cofx [_ _]]` and if we look at the body of that function, we can see that it just returns a simple map. And this is the intent. The keys in this map correspond to effects that will happen in our application (`:db` and `:http`) in this case. And our `initialise-application` event doesn't care what these effects do. It just returns an intent what it wants to do.
 
