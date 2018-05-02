@@ -1,5 +1,5 @@
 # What?
-`Clojure` is a general-purpose, functional programming language, that runs on `JVM` (Java Virtual Machine). It is a `Lisp` dialect. So by learning `Clojure`, you automatically learn `Lisp`. It is a compiled language and the produced output is `Java` byte code.
+`Clojure` is a general-purpose, functional programming language, that runs on `JVM` (Java Virtual Machine). It is a `Lisp` dialect. So by learning `Clojure`, you automatically learn `Lisp`. It is a compiled language and the produced output is `JVM` bytecode.
 
 `Clojure` offers a `REPL` driven development, which enables the developer to interact with the running application without restarting / reloading it (i.e. change state or evaluate new functionality).
 
